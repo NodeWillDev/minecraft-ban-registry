@@ -15,7 +15,7 @@ class CheckBan extends AsyncTask
   public function __construct(
     private string $name,
     private string $xuid,
-    private string $router = "http://localhost:3333/listing-bans"
+    private string $router = 'http://localhost:3333/listing-bans'
   ) {
   }
 
