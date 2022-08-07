@@ -6,8 +6,8 @@ import * as S from "./styled";
 
 export const Box: React.FC = () => {
 
-  var date = new Date(6);
-  const today = `${date.getDate().toString().padStart(2, "0")}/${(date.getMonth()).toString().padStart(2, "0")}/${date.getFullYear()}`
+  var date = new Date();
+  const today = `${date.getDate().toString().padStart(2, "0")}/${(date.getMonth() + 1).toString().padStart(2, "0")}/${date.getFullYear()}`
 
   const [getAllBans, setAllBans] = useState<BanData[]>([])
 

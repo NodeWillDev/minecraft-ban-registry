@@ -25,12 +25,12 @@ export class CreateBanController {
       })      
 
       return response.status(201).json({
-        sucess: true
+        success: true
       })
 
     } catch {
       return response.status(400).json({
-        sucess: false,
+        success: false,
       })
     }
   }

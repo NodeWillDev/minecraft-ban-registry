@@ -55,8 +55,7 @@ class CreateBan extends AsyncTask
 
       /** @var stdClass */
       $std = json_decode($result);
-
-      $this->setResult($std->sucess);      
+      $this->setResult($std->success);      
 
       @unlink($this->dir);
 

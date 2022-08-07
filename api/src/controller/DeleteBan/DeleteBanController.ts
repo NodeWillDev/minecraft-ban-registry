@@ -16,11 +16,11 @@ export class DeleteBanController {
       await this.deleteBan.execute(nick)
 
       return response.status(200).json({
-        sucess: true
+        success: true
       });
     } catch {
       return response.status(303).json({
-        sucess: false
+        success: false
       });
     }
   }
