@@ -10,8 +10,14 @@
 - O rosto do jogador que foi banido aparecera no site
 - Possível remover os banimentos também
 
-<br>
+  <br>
 
+# How to use
+
+Create your server with default [PocketMine-MP](https://doc.pmmp.io/en/rtfd/installation.html)
+
+  <br>
+  
 ## Configure
 
 > **api/src/typeorm/data-source.ts**
